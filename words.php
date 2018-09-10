@@ -29,12 +29,12 @@
 </tr>
 <tr>
 <td>
-
+ 
 </td>
 </tr>
 </table>
 <script>
-
+var aa;
 function strf(data){
 	var words = data.split(/[^a-zА-яёЁ]/);
 	var wordsCount = {};
