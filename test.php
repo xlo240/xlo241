@@ -9,5 +9,6 @@
 <body bgcolor="#ccc">
 
 <h1>ПРИВЕТ</h1>
+<p>Вторая запись</p>
 </body>
 </html>
