@@ -7,9 +7,6 @@
 </head>
 
 <body bgcolor="#ccc">
-
-
-
 <p align="center"><a href="str2.php">Назад</a> <a href="exit.php">ВЫХОД</a></p>
 <table align="center" border="1">
 <tr>
@@ -36,7 +33,7 @@
 <script>
 var aa;
 function strf(data){
-	var words = data.split(/[^a-zА-яёЁ]/);
+	var words = data.split(/[^a-zА-яёЁ]/);// *****
 	var wordsCount = {};
 	words.forEach(function(word){
 		if(word in wordsCount){
